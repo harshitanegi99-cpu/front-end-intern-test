@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "2645223a-cf3a-443e-b0cb-0d8ce9dc25da",
+		"name": "EZ Labs Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49909573",
+		"_collection_link": "https://negiharshita99-7352606.postman.co/workspace/Harshita-Negi's-Workspace~f6277451-ffa0-41e3-88c2-924559e2826c/collection/49909573-2645223a-cf3a-443e-b0cb-0d8ce9dc25da?action=share&source=collection_link&creator=49909573"
+	},
+	"item": [
+		{
+			"name": "https://vernanbackend.ezlab.in/api/contact-us/\n",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Amit\",\r\n  \"email\": \"amit@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"message\": \"Hello from Postman!\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/\n",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						"\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

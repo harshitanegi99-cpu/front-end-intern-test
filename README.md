@@ -39,8 +39,8 @@ Front-end validation ensures proper input before submission.
 **Endpoint:**  
 POST https://vernanbackend.ezlab.in/api/contact-us/
 
-swift
-Copy code
+ 
+ 
 
 **Required Fields:**  
 - `name`
@@ -59,7 +59,7 @@ Copy code
 Successful Response (200):
 
 json
-Copy code
+ 
 {
   "id": 49,
   "name": "Amit",
